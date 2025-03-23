@@ -2847,7 +2847,7 @@ OP_PRICE_FEEDS = {
     },
     "bonk-usd": {
         "address": "0xec236454209A76a6deCdf5C1183aE2Eb5e82a829",
-        "decimals": 8,
+        "decimals": 18,
         "heartbeat": 86400,
         "name": "Bonk",
         "type": "crypto",
@@ -2973,19 +2973,27 @@ OP_PRICE_FEEDS = {
         "type": "forex",
         "market": "forex"
     },
-    "fbtc-btc-exchange-rate": {
-        "address": "0x84ad1Cb9FDE786c00a77b7539344ad3C66A616f5",
-        "decimals": 18,
+    "fil-usd": {
+        "address": "0x66F61FEe824c1dF059BccCC5F21ca39e083EefDf",
+        "decimals": 8,
         "heartbeat": 86400,
-        "name": "FBTC / BTC Exchange Rate",
+        "name": "Filecoin",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "flow-usd": {
+        "address": "0x2fF1EB7D0ceC35959F0248E9354c3248c6683D9b",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Flow",
         "type": "crypto",
         "market": "crypto"
     },
     "frax-usd": {
-        "address": "0x0809E3d38d1B4214958faf06D8b1B1a2b73f2ab8",
+        "address": "0xc7D132BeCAbE7Dcc4204841F33bae45841e41D9C",
         "decimals": 8,
         "heartbeat": 86400,
-        "name": "FRAX",
+        "name": "Frax",
         "type": "crypto",
         "market": "crypto"
     },
@@ -3106,22 +3114,6 @@ OP_PRICE_FEEDS = {
         "decimals": 8,
         "heartbeat": 86400,
         "name": "Litecoin",
-        "type": "crypto",
-        "market": "crypto"
-    },
-    "lusd-usd": {
-        "address": "0x0411D28c94d85A36bC72Cb0f875dfA8371D8fFfF",
-        "decimals": 8,
-        "heartbeat": 86400,
-        "name": "Liquity USD",
-        "type": "crypto",
-        "market": "crypto"
-    },
-    "magic-usd": {
-        "address": "0x47E55cCec6582838E173f252D08Afd8116c2202d",
-        "decimals": 8,
-        "heartbeat": 86400,
-        "name": "Magic",
         "type": "crypto",
         "market": "crypto"
     },
@@ -3253,11 +3245,27 @@ OP_PRICE_FEEDS = {
         "type": "crypto",
         "market": "crypto"
     },
-    "rsr-usd": {
-        "address": "0x759bBC1be8F90eE6457C44abc7d443842a976d02",
+    "rune-usd": {
+        "address": "0x372cc5e685115A56F14fa7e4716F1294e04c278A",
         "decimals": 8,
         "heartbeat": 86400,
-        "name": "Reserve Rights",
+        "name": "THORChain",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "sand-usd": {
+        "address": "0xAE33e077a02071E62d342E449Afd9895b016d541",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "The Sandbox",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "sats-usd": {
+        "address": "0x50f8cf458E7334Be143f3c9F1f1577EE37A45653",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "SATS (Ordinals)",
         "type": "crypto",
         "market": "crypto"
     },
@@ -3421,6 +3429,70 @@ OP_PRICE_FEEDS = {
         "type": "crypto",
         "market": "crypto"
     },
+    "well-usd": {
+        "address": "0x7F102e5b4C32e0861293E97DE85e6E0dB3530605",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Moonwell",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "wif-usd": {
+        "address": "0x75c3bF05EeF2c1966D6d5890Def3DbE640627642",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "dogwifhat",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "wld-usd": {
+        "address": "0x4e1C6B168DCFD7758bC2Ab9d2865f1895813D236",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Worldcoin",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "wsteth-eth": {
+        "address": "0x524299Ab0987a7c4B3c8022a35669DdcdC715a10",
+        "decimals": 18,
+        "heartbeat": 3600,
+        "name": "Lido wstETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "wsteth-usd": {
+        "address": "0x698B585CbC4407e2D54aa898B2600B53C68958f7",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Lido wstETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "xag-usd": {
+        "address": "0x290dd71254874f0d4356443607cb8234958DEe49",
+        "decimals": 8,
+        "heartbeat": 1200,
+        "name": "Silver",
+        "type": "commodities",
+        "market": "Precious_Metals"
+    },
+    "xau-usd": {
+        "address": "0x8F7bFb42Bf7421c2b34AAD619be4654bFa7B3B8B",
+        "decimals": 8,
+        "heartbeat": 1200,
+        "name": "Gold",
+        "type": "commodities",
+        "market": "Precious_Metals"
+    },
+    "xlm-usd": {
+        "address": "0x799A346e7dBfa0f66Ad0961259366F93A1ee34C4",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Stellar",
+        "type": "crypto",
+        "market": "crypto"
+    },
     "xmr-usd": {
         "address": "0x2a8D91686A048E98e6CCF1A89E82f40D14312672",
         "decimals": 8,
@@ -3453,7 +3525,7 @@ OP_PRICE_FEEDS = {
         "type": "crypto",
         "market": "crypto"
     },
-    "agetheth-eth-exchange-rate": {
+    "ageth-eth-exchange-rate": {
         "address": "0x37677A136CD3ff2767107D34cfC9213aa474f2BA",
         "decimals": 18,
         "heartbeat": 86400,
@@ -3525,7 +3597,7 @@ OP_PRICE_FEEDS = {
         "type": "crypto",
         "market": "crypto"
     },
-    "sfrx-frx-exchange-rate": {
+    "sfrx-frax-exchange-rate": {
         "address": "0x8f096bFFe37313Ad6bD5B9fF48F9FF6E4E5Cd065",
         "decimals": 18,
         "heartbeat": 86400,
@@ -3890,7 +3962,7 @@ BASE_PRICE_FEEDS = {
     },
     "mog-usd": {
         "address": "0x4aeb6D15769EaD32D0c5Be2940F40c7CFf53801d",
-        "decimals": 8,
+        "decimals": 18,
         "heartbeat": 86400,
         "name": "Mog Coin",
         "type": "crypto",
@@ -4024,7 +4096,311 @@ BASE_PRICE_FEEDS = {
         "type": "crypto",
         "market": "crypto"
     },
-    "solvbtc-usd": {
+    "solvbtcbbn-solvbtc-exchange-rate": {
+        "address": "0x67283A47E470afbCcc4aC74ccC32401a81027691",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "SolvBTC.BBN / SolvBTC Exchange Rate",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "tbtc-usd": {
+        "address": "0x6D75BFB5A5885f841b132198C9f0bE8c872057BF",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "tBTC",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "trump-usd": {
+        "address": "0x7bAfa1Af54f17cC0775a1Cf813B9fF5dED2C51E5",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Official Trump",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "total-marketcap-usd": {
+        "address": "0x962C0Df8Ca7f7C682B3872ccA31Ea9c8999ab23c",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Total Market Cap USD",
+        "type": "currency",
+        "market": "crypto"
+    },
+    "usdc-usd": {
+        "address": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Circle USD",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "usds-usd": {
+        "address": "0x2330aaE3bca5F05169d5f4597964D44522F62930",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "USDS",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "usdt-usd": {
+        "address": "0xf19d560eB8d2ADf07BD6D13ed03e1D11215721F9",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Tether USD",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "usdx-usd": {
+        "address": "0xC342785EE44b9F8a40a564200CDF14dFCefd36C3",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "USDX",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "usde-usd": {
+        "address": "0x790181e93e9F4Eedb5b864860C12e4d2CffFe73B",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Ethena USDe",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "virtual-usd": {
+        "address": "0xEaf310161c9eF7c813A14f8FEF6Fb271434019F7",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "VIRTUAL / USD",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "vvv-usd": {
+        "address": "0x8eC6a128a430f7A850165bcF18facc9520a9873F",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "VVV / USD",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "wbtc-usd": {
+        "address": "0xCCADC697c55bbB68dc5bCdf8d3CBe83CdD4E071E",
+        "decimals": 8,
+        "heartbeat": 1200,
+        "name": "Wrapped Bitcoin",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "well-usd": {
+        "address": "0xc15d9944dAefE2dB03e53bef8DDA25a56832C5fe",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Moonwell",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "wif-usd": {
+        "address": "0x674940e1dBf7FD841b33156DA9A88afbD95AaFBa",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "dogwifhat",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "wmtx-usd": {
+        "address": "0x311681f6E0b34670Fb03e066cc08C6D09149a44c",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "WMTx / USD",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "wsteth-eth": {
+        "address": "0x43a5C292A453A3bF3606fa856197f09D7B74251a",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Wrapped stETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "xau-usd": {
+        "address": "0x5213eBB69743b85644dbB6E25cdF994aFBb8cF31",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Gold",
+        "type": "commodities",
+        "market": "Precious_Metals"
+    },
+    "yfi-usd": {
+        "address": "0xD40e758b5eC80820B68DFC302fc5Ce1239083548",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Yearn Finance",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "zar-usd": {
+        "address": "0x2ecc8A8B370fC6a217166b2782a35339bEBEe98B",
+        "decimals": 8,
+        "heartbeat": 3600,
+        "name": "South African Rand",
+        "type": "forex",
+        "market": "forex"
+    },
+    "zbu-usd": {
+        "address": "0x19c6501ee6FF5Faf36346031A92C46AF128807d3",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Zeebu",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "zro-usd": {
+        "address": "0xdc31a4CCfCA039BeC6222e20BE7770E12581bfEB",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "LayerZero",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "cbbtc-usd": {
+        "address": "0x07DA0E54543a844a80ABE69c8A12F22B3aA59f9D",
+        "decimals": 8,
+        "heartbeat": 1200,
+        "name": "Coinbase Wrapped Bitcoin",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "cbeth-eth-exchange-rate": {
+        "address": "0x868a501e68F3D1E89CfC0D22F6b22E8dabce5F04",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "cbETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "ezeth-eth": {
+        "address": "0x960BDD1dFD20d7c98fa482D793C3dedD73A113a3",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Renzo Restaked ETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "ezeth-eth-exchange-rate": {
+        "address": "0xC4300B7CF0646F0Fe4C5B2ACFCCC4dCA1346f5d8",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Renzo Restaked ETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "ineth-eth-exchange-rate": {
+        "address": "0x83ac12dBb5Bd7Fa597ab2FFEc9F2F13DeDdFe163",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Inception Restaked ETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "insteth-eth-exchange-rate": {
+        "address": "0x9C6BF4884Ff0c7873652F7d5142FA3b9859a526D",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Inception stETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "inwsteth-wsteth-exchange-rate": {
+        "address": "0xb58c5C550Ba19c4CEeE071F8CeeB58f8770e6978",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "inwstETH / wstETH Exchange Rate",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "pufeth-eth": {
+        "address": "0x9452Ca03474C6B704B4e102339B451D640f57f07",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "pufETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "pufeth-eth-exchange-rate": {
+        "address": "0x69a1d14a4e58e97EDE8337DE61eEB2e4a55886E0",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "pufETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "rseth-eth-exchange-rate": {
+        "address": "0x99DAf760d2CFB770cc17e883dF45454FE421616b",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Kelp DAO Restaked ETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "rsweth-eth": {
+        "address": "0xcCBb30DA24b5195D2Ee94C2B29cfA7108b4DFB1F",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Restaked Swell ETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "rsweth-eth-exchange-rate": {
+        "address": "0x97b770B0200CCe161907a9cbe0C6B177679f8F7C",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Restaked Swell ETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "susds-usds-exchange-rate": {
+        "address": "0x906B24a339b848369B24Dc9Ed368b947fB9693bf",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "sUSDS / USDS Exchange Rate",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "susde-usd": {
+        "address": "0x79cf4a31B29D69191f0b6E97916eB93FEB81E533",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Ethena Staked USDe",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "susde-usde-exchange-rate": {
+        "address": "0xdEd37FC1400B8022968441356f771639ad1B23aA",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Ethena Staked USDe",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "susdz-usdz-exchange-rate": {
+        "address": "0xD89c7fFB39C44b17EAecd8717a75A36c19C07582",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "sUSDz / USDz Exchange Rate",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "sfrxeth-frxeth-exchange-rate": {
+        "address": "0x1Eba1d6941088c8FCE2CbcaC80754C77871aD093",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Staked Frax Ether",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "solvbtc-btc": {
         "address": "0xB4a1a7f260C9FF7fEd6A6fbb9fe5a9acFa725DBf",
         "decimals": 8,
         "heartbeat": 86400,
@@ -4044,7 +4420,7 @@ BASE_PRICE_FEEDS = {
         "address": "0x8004571d9f54dE016fc3D448e7AEe2d70947727A",
         "decimals": 18,
         "heartbeat": 86400,
-        "name": "Treehouse ETH",
+        "name": "tETH / wstETH Exchange Rate",
         "type": "crypto",
         "market": "crypto"
     },
@@ -4119,12 +4495,231 @@ BASE_PRICE_FEEDS = {
         "name": "YieldNest Restaked ETH Exchange Rate",
         "type": "crypto",
         "market": "crypto"
+    }
+}
+
+LINEA_PRICE_FEEDS = {
+    "aave-usd": {
+        "address": "0x09B0a8AFD9185500d7C64FC68338b4C50db6df1d",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Aave",
+        "type": "crypto",
+        "market": "crypto"
     },
-    "ynethx-eth-exchange-rate": {
-        "address": "0xCb93226806156b03c8896bbD1cd5e4174cdb0806",
+    "arb-usd": {
+        "address": "0x28606F10277Cc2e99e57ae2C55D26860E13A1BBD",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Arbitrum",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "btc-usd": {
+        "address": "0x7A99092816C8BD5ec8ba229e3a6E6Da1E628E1F9",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Bitcoin",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "dai-usd": {
+        "address": "0x5133D67c38AFbdd02997c14Abd8d83676B4e309A",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "DAI",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "eth-usd": {
+        "address": "0x3c6Cd9Cc7c7a4c2Cf5a82734CD249D7D593354dA",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Ethereum",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "eur-usd": {
+        "address": "0x637cf12017219Dd3A758818eD63185f7acF7D935",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Euro",
+        "type": "forex",
+        "market": "forex"
+    },
+    "foxy-usd": {
+        "address": "0xdE14081b6bd39230EcA7Be1137413b7b87B07C07",
         "decimals": 18,
         "heartbeat": 86400,
-        "name": "ynETHx / ETH Exchange Rate",
+        "name": "Foxy",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "link-eth": {
+        "address": "0xc4194f19E3a0836F6B998394445C6535c50604Ce",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Chainlink",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "link-usd": {
+        "address": "0x8dF01C2eFed1404872b54a69f40a57FeC1545998",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Chainlink",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "matic-usd": {
+        "address": "0x9ce4473B42a639d010eD741df3CA829E6e480803",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Polygon (MATIC)",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "pol-usd": {
+        "address": "0xEF77B4A7D92eBDC89025B8E11916A69BDA6d189c",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "POL",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "rseth-eth": {
+        "address": "0x85342bC62aadef58f029ab6d17D643949e6F073e",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Kelp DAO Restaked ETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "usdc-usd": {
+        "address": "0xAADAa473C1bDF7317ec07c915680Af29DeBfdCb5",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Circle USD",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "usdt-usd": {
+        "address": "0xefCA2bbe0EdD0E22b2e0d2F8248E99F4bEf4A7dB",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Tether USD",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "wsteth-usd": {
+        "address": "0x8eCE1AbA32716FdDe8D6482bfd88E9a0ee01f565",
+        "decimals": 8,
+        "heartbeat": 86400,
+        "name": "Lido wstETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "ageth-eth-exchange-rate": {
+        "address": "0x5C5Ee01b351b7ef0b16Cfd59E93F743E0679d7bC",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "agETH / ETH Exchange Rate",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "ezeth-eth": {
+        "address": "0xB1d9A4Fe9331E28C5588B63343BF064A397aadB8",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Renzo Restaked ETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "ezeth-eth-exchange-rate": {
+        "address": "0xb71F79770BA599940F454c70e63d4DE0E8606731",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Renzo Restaked ETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "ineth-eth-exchange-rate": {
+        "address": "0x1EBA8E11f5Dcc43ae9A8cB7A8346D1d191671BAe",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Inception Restaked ETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "insteth-eth-exchange-rate": {
+        "address": "0xeeD6246A489f386b10eeB2908239C8529B9b25DD",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Inception stETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "oseth-eth-exchange-rate": {
+        "address": "0x4C2f2CD982DD7fF2a607dcEB0B30fae8208D7156",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "StakeWise Staked ETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "rsweth-eth-exchange-rate": {
+        "address": "0xB21b5Abc612b8045A33fC421d611D55473E012BD",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Restaked Swell ETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "ultraeths-eth-exchange-rate": {
+        "address": "0x0956106Bd02f2C7eca0AbDe1d51Fc8050CC41714",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "ultraETHs / ETH Exchange Rate",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "weeth-eth": {
+        "address": "0xC4bF21Ab46bd22Cf993c0AAa363577bD2Af83544",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Wrapped eETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "weeth-eeth-exchange-rate": {
+        "address": "0x1FBc7d24654b10c71fd74d3730d9Df17836181EF",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Wrapped eETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "wrseth-rseth-exchange-rate": {
+        "address": "0xEEDF0B095B5dfe75F3881Cb26c19DA209A27463a",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "Wrapped rsETH",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "wsteth-steth-exchange-rate": {
+        "address": "0x3C8A95F2264bB3b52156c766b738357008d87cB7",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "wstETH / stETH Exchange Rate",
+        "type": "crypto",
+        "market": "crypto"
+    },
+    "yneth-eth-exchange-rate": {
+        "address": "0x57011f81c93Da4dFb244c80667aAECf8cA9D53Bb",
+        "decimals": 18,
+        "heartbeat": 86400,
+        "name": "YieldNest Restaked ETH Exchange Rate",
         "type": "crypto",
         "market": "crypto"
     }

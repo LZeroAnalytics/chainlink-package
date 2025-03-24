@@ -2721,6 +2721,9 @@ ARBITRUM_PRICE_FEEDS = {
         "name": "ynETHx / ETH Exchange Rate",
         "type": "crypto",
         "market": "crypto"
+    },
+    "l2-sequencer": {
+        "address": "0xFdB631F5EE196F0ed6FAa767959853A9F217697D"
     }
 }
 
@@ -3708,6 +3711,9 @@ OP_PRICE_FEEDS = {
         "name": "ynETHx / ETH Exchange Rate",
         "type": "crypto",
         "market": "crypto"
+    },
+    "l2-sequencer": {
+        "address": "0x371EAD81c9102C9BF4874A9075FFFf170F2Ee389"
     }
 }
 
@@ -4495,6 +4501,9 @@ BASE_PRICE_FEEDS = {
         "name": "YieldNest Restaked ETH Exchange Rate",
         "type": "crypto",
         "market": "crypto"
+    },
+    "l2-sequencer": {
+        "address": "0xBCF85224fc0756B9Fa45aA7892530B47e10b6433"
     }
 }
 

@@ -21,4 +21,4 @@ def run(plan, args):
          participant["el_type"] = "reth"
          participant["el_extra_env_vars"]["PRICE_FEEDS"] = json.encode(price_feeds)
 
-    ethereum.run(plan, args)
+    return ethereum.run(plan, args)

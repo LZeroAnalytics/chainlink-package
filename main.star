@@ -1,4 +1,4 @@
-ethereum = import_module("github.com/LZeroAnalytics/ethereum-package@dev/main.star")
+ethereum = import_module("github.com/LZeroAnalytics/ethereum-package/main.star")
 constants = import_module("./src/package_io/constants.star")
 
 def run(plan, args):

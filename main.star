@@ -17,7 +17,7 @@ def run(plan, args):
         fail("Specified network type not supported")
 
     for participant in args["participants"]:
-         participant["el_image"] = "tiljordan/reth-chainlink:1.0.0"
+         participant["el_image"] = "tiljordan/reth-forking:1.0.0-chainlink"
          participant["el_type"] = "reth"
          participant["el_extra_env_vars"]["PRICE_FEEDS"] = json.encode(price_feeds)
 

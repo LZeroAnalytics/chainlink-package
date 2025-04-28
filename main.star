@@ -21,4 +21,5 @@ def run(plan, args):
          participant["el_type"] = "reth"
          participant["el_extra_env_vars"]["PRICE_FEEDS"] = json.encode(price_feeds)
 
-    return ethereum.run(plan, args)
+    clean_args = {k: v for k, v in args.items() if k != "network_type"}
+    return ethereum.run(plan, clean_args)
